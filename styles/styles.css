@@ -29,6 +29,12 @@ p {
   line-height: 30px;
 }
 
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 80px 20px;
+}
+
 .content-container {
   padding: 160px 30px;
 }
@@ -41,11 +47,13 @@ p {
 .content {
   margin-right: 30px;
 }
+.hero h1,
 .content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
+.hero h2,
 .content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
@@ -64,6 +72,11 @@ p {
 .navigation-links a {
   margin: 20px;
 }
+
+.nav-item {
+  padding: 0 20px;
+}
+
 .primary-link {
   background: var(--branding-color);
   box-shadow: var(--box-shadow);
@@ -114,7 +127,7 @@ p {
 }
 
 .logo {
-  max-width: 100px;
+  max-width: 150px;
 }
 
 @media (max-width: 900px) {
