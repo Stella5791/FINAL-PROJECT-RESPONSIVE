@@ -150,6 +150,9 @@ a:hover {
 .logo {
   max-width: 150px;
 }
+footer {
+  margin: 60px 0;
+}
 footer .contact-box {
   background-color: var(--secondary-color);
   padding: 30px 120px;
