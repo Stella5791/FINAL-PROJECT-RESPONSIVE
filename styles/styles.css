@@ -171,7 +171,7 @@ footer .contact-box p {
 .email-link:hover {
   color: var(--branding-color);
 }
-.social-links i {
+i {
   color: var(--secondary-color);
   margin: 20px;
   background-color: var(--branding-color);
@@ -179,7 +179,7 @@ footer .contact-box p {
   font-size: 30px;
   border-radius: 50%;
 }
-.social-links i:hover {
+i:hover {
   color: black;
   background-color: var(--secondary-color);
   transition: all 150ms ease-in-out;
