@@ -163,25 +163,25 @@ footer .contact-box p {
   margin: 0;
 }
 
-footer .email-link {
+.email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
 }
-footer .email-link:hover {
+.email-link:hover {
   color: var(--branding-color);
 }
-footer .social-links i {
-  color: var(--branding-color);
+.social-links i {
+  color: var(--secondary-color);
   margin: 20px;
-  background-color: var(--secondary-color);
+  background-color: var(--branding-color);
   padding: 25px;
-  font-size: 20px;
+  font-size: 30px;
   border-radius: 50%;
 }
-footer .social-links i:hover {
-  color: white;
-  background-color: var(--branding-color);
+.social-links i:hover {
+  color: black;
+  background-color: var(--secondary-color);
   transition: all 150ms ease-in-out;
 }
 
